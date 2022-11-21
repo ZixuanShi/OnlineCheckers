@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{1006ccaa-a296-47fc-843f-4ff550ab1d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Networking">
+      <UniqueIdentifier>{501b0e4e-dae9-4ac3-a7ed-a74d77de0c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{27881105-4c85-4f73-bf64-466e4f5e6386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Log">
+      <UniqueIdentifier>{befca95c-07f2-4832-954f-19e5389c9b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Math">
+      <UniqueIdentifier>{715f4777-f76d-4191-abd5-5c44254d44fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Checkers">
+      <UniqueIdentifier>{8f9d6237-e5fc-469e-b151-6e7b3b4cf9b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Application\main.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application\Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\Log\Log.cpp">
+      <Filter>Utils\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application\Networking\NetworkClient.cpp">
+      <Filter>Application\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application\Networking\NetworkServer.cpp">
+      <Filter>Application\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Checkers\GameState.cpp">
+      <Filter>Checkers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Checkers\Piece.cpp">
+      <Filter>Checkers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Checkers\Tile.cpp">
+      <Filter>Checkers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Checkers\CheckersBoard.cpp">
+      <Filter>Checkers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Application\Application.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utils\Log\Log.h">
+      <Filter>Utils\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utils\Math\Vector2.h">
+      <Filter>Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utils\Math\Vector3.h">
+      <Filter>Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Application\Networking\NetworkServer.h">
+      <Filter>Application\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Application\Networking\NetworkClient.h">
+      <Filter>Application\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Application\Networking\Network.h">
+      <Filter>Application\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Checkers\GameState.h">
+      <Filter>Checkers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Checkers\Tile.h">
+      <Filter>Checkers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Checkers\Piece.h">
+      <Filter>Checkers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Checkers\CheckersBoard.h">
+      <Filter>Checkers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Checkers\CheckersConstants.h">
+      <Filter>Checkers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
